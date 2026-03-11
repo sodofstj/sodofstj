@@ -1,0 +1,148 @@
+SDOF WEBSITE – CONTENT & IMAGES NEEDED FROM CLIENT
+====================================================
+
+Please provide the following content and images for the website.
+For images, high-resolution photos work best (minimum 1200px wide).
+
+
+------------------------------------------------------------
+USED ON ALL PAGES
+------------------------------------------------------------
+
+1. SDOF Logo (image file – PNG or SVG preferred)
+2. Phone number (currently placeholder: +91 94465 63128)
+3. Email address (confirm or replace: info@stjohnspunalur.org)
+4. Facebook page URL
+5. Instagram page URL
+6. YouTube channel URL
+
+
+------------------------------------------------------------
+HOME PAGE
+------------------------------------------------------------
+
+Hero Carousel Banners (4 full-width images, ideally 1600x600px):
+
+  Slide 1 – "Welcome to the Spiritual Home of St. John's Punalur"
+    Image needed: Photo of St. John's Orthodox Church building, Punalur
+
+  Slide 2 – "Experience the Holy Qurbana"
+    Image needed: Photo of a Holy Qurbana service in progress
+
+  Slide 3 – "SDOF – Faith · Witness · Enlightenment"
+    Image needed: Photo of SDOF Fellowship gathering or group photo
+
+  Slide 4 – "Celebrate With Us"
+    Image needed: Photo of a Christmas celebration or feast day at church
+
+Content Section Images:
+
+  "About SDOF" section
+    Image needed: Photo of the church building (exterior or interior)
+
+  "Mission & Vision" section
+    Image needed: Photo of the church congregation
+
+  "Upcoming Events" – Livestream card
+    Image needed: Photo of Sunday Mass / altar view for livestream thumbnail
+
+  "About St. John's Punalur" – Church History section
+    Image needed: Historic or archival photo of St. John's Church
+
+
+------------------------------------------------------------
+ABOUT PAGE
+------------------------------------------------------------
+
+  "About SDOF" section
+    Image needed: Photo of SDOF Fellowship members or fellowship activities
+
+  "Mission & Vision" section
+    Image needed: Photo of community outreach or service activities
+
+  "History of St. John's Church, Punalur" section
+    Image needed: Historic or archival photo of the church
+
+  "Our Leadership" section – 3 portrait photos and names needed:
+
+    Vicar
+      - Actual name (currently placeholder: "Rev. Father Name")
+      - Portrait photo
+
+    SDOF President
+      - Actual name (currently placeholder: "President Name")
+      - Portrait photo
+
+    SDOF Secretary
+      - Actual name (currently placeholder: "Secretary Name")
+      - Portrait photo
+
+
+------------------------------------------------------------
+EVENTS PAGE
+------------------------------------------------------------
+
+  "Sunday Mass Livestream" section
+    Image needed: Photo of Sunday Mass or livestream setup
+
+  "Past Events" section
+    Image needed: Photos from past events and celebrations
+
+  Text to confirm or update:
+    - Are these events and dates correct?
+        Christmas Carols – Dec 25
+        New Year Prayer Service – Jan 1
+        Epiphany Celebration – Jan 6
+        Feast of the Presentation – Feb 2
+        Annunciation of the Theotokos – Mar 25
+        Palm Sunday (Hosanna) – Apr 20
+    - YouTube livestream link for the "Watch Live" button
+
+
+------------------------------------------------------------
+CONTACT PAGE
+------------------------------------------------------------
+
+  No images needed. Please confirm or update:
+
+    - Church address: St. John's Orthodox Syrian Church,
+      Chernmanthoor, Punalur, Kollam District, Kerala, India
+
+    - Phone number
+
+    - Email address
+
+    - Service timings:
+        Divine Liturgy — 2nd & 4th Sundays – 10:00 AM
+        Evening Prayer: 6:00 PM (Wednesdays & Fridays)
+        Saturday Vespers: 5:30 PM
+
+    - Google Maps location pin – please verify it is correct
+
+
+------------------------------------------------------------
+DONATE PAGE
+------------------------------------------------------------
+
+  "Donate" section
+    Image needed: QR code image for payment (UPI / bank transfer)
+
+  Text/details needed:
+    - Bank account name
+    - Bank account number
+    - IFSC code
+    - UPI ID (if applicable)
+    - "Donate Now" button – where should it link? (payment gateway URL)
+
+
+------------------------------------------------------------
+SUMMARY – TOTAL IMAGES NEEDED
+------------------------------------------------------------
+
+  Logo                     : 1
+  Hero carousel banners    : 4
+  Content section photos   : 8
+  Leadership portraits     : 3
+  QR code / payment image  : 1
+                           -----
+  Total                    : 17

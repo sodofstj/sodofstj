@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery – SDOF St. John's Orthodox Church, Punalur</title>
+  <meta name="description" content="Photo gallery of St. John's Orthodox Syrian Church, Punalur – events, celebrations, services and community life." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Pico.css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <style>
+    /* Simple Image Viewer */
+    .image-viewer {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.9);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+    .image-viewer.active { display: flex; }
+    .image-viewer img {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+    }
+    .image-viewer .nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255,255,255,0.2);
+      color: white;
+      border: none;
+      padding: 20px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .image-viewer .prev { left: 20px; }
+    .image-viewer .next { right: 20px; }
+    .image-viewer .close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: rgba(255,255,255,0.2);
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .gallery-grid img {
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .gallery-grid img:hover {
+      transform: scale(1.02);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ══ HEADER ══ -->
+  <header class="site-header">
+    <nav>
+      <a href="index.html" class="logo-group">
+        <img src="assets/images/SDOF 1.png" alt="SDOF Logo" />
+      </a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="gallery.html" aria-current="page"><strong>Gallery</strong></a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="donate.html" role="button" class="donate-btn">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <!-- ══ Hero Banner ══ -->
+    <section class="gallery-hero">
+      <h1>Photo Gallery</h1>
+      <p>Moments from our worship, celebrations and community life.</p>
+    </section>
+
+    <!-- ══ Gallery Grid ══ -->
+    <section>
+      <div class="gallery-grid reveal">
+        <img src="assets/images/2.jpeg" alt="Gallery photo 2" loading="lazy" onclick="openImage(1)" />
+        <img src="assets/images/3.jpeg" alt="Gallery photo 3" loading="lazy" onclick="openImage(2)" />
+        <img src="assets/images/4.jpeg" alt="Gallery photo 4" loading="lazy" onclick="openImage(3)" />
+        <img src="assets/images/5.jpeg" alt="Gallery photo 5" loading="lazy" onclick="openImage(4)" />
+        <img src="assets/images/6.jpeg" alt="Gallery photo 6" loading="lazy" onclick="openImage(5)" />
+        <img src="assets/images/7.jpeg" alt="Gallery photo 7" loading="lazy" onclick="openImage(6)" />
+        <img src="assets/images/8.jpeg" alt="Gallery photo 8" loading="lazy" onclick="openImage(7)" />
+        <img src="assets/images/9.jpeg" alt="Gallery photo 9" loading="lazy" onclick="openImage(8)" />
+        <img src="assets/images/10.jpeg" alt="Gallery photo 10" loading="lazy" onclick="openImage(9)" />
+        <img src="assets/images/11.jpeg" alt="Gallery photo 11" loading="lazy" onclick="openImage(10)" />
+        <img src="assets/images/12.jpeg" alt="Gallery photo 12" loading="lazy" onclick="openImage(11)" />
+        <img src="assets/images/13.jpeg" alt="Gallery photo 13" loading="lazy" onclick="openImage(12)" />
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <div class="logo-group">
+          <img src="assets/images/SDOF 0.png" alt="SDOF Logo" />
+          
+        </div>
+        <small>Phone: <a href="tel:+919446563128">+91 94465 63128</a></small>
+        <small>Email: <a href="mailto:sdofstjohns@gmail.com">sdofstjohns@gmail.com</a></small>
+      </div>
+      <div class="footer-col-center">
+        <strong>Service Times</strong>
+        <small>Divine Liturgy — 2nd & 4th Sundays</small>
+        <!-- <small>Wednesday Prayer: 6:30 PM</small>
+        <small>Sunday School: 10:00 AM</small> -->
+      </div>
+      <div class="footer-col-right">
+        <!-- <ul class="social-links">
+          <li><a href="#" aria-label="Facebook">&#91;f&#93;</a></li>
+          <li><a href="#" aria-label="Instagram">&#91;IG&#93;</a></li>
+          <li><a href="#" aria-label="YouTube">&#91;YT&#93;</a></li>
+        </ul> -->
+        <small><a href="about.html">About Us</a></small>
+        <small><a href="contact.html">Contact</a></small>
+        <!-- <small><a href="donate.html">Donate</a></small> -->
+      </div>
+      <p class="footer-copyright"><small>&copy; 2026 SDOF – St. John's Orthodox Church, Punalur. All rights reserved.</small></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
+  <div id="image-viewer" class="image-viewer">
+    <button class="close" onclick="closeViewer()">×</button>
+    <button class="nav-btn prev" onclick="prevImage()">‹</button>
+    <img id="viewer-image" src="" alt="">
+    <button class="nav-btn next" onclick="nextImage()">›</button>
+  </div>
+
+  <script>
+    const images = [
+      'assets/images/1.jpeg',
+      'assets/images/2.jpeg',
+      'assets/images/3.jpeg',
+      'assets/images/4.jpeg',
+      'assets/images/5.jpeg',
+      'assets/images/6.jpeg',
+      'assets/images/7.jpeg',
+      'assets/images/8.jpeg',
+      'assets/images/9.jpeg',
+      'assets/images/10.jpeg',
+      'assets/images/11.jpeg',
+      'assets/images/12.jpeg',
+      'assets/images/13.jpeg'
+    ];
+
+    let currentImageIndex = 0;
+
+    function openImage(index) {
+      currentImageIndex = index;
+      document.getElementById('viewer-image').src = images[currentImageIndex];
+      document.getElementById('image-viewer').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeViewer() {
+      document.getElementById('image-viewer').classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    function nextImage() {
+      currentImageIndex = (currentImageIndex + 1) % images.length;
+      document.getElementById('viewer-image').src = images[currentImageIndex];
+    }
+
+    function prevImage() {
+      currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+      document.getElementById('viewer-image').src = images[currentImageIndex];
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+      if (document.getElementById('image-viewer').classList.contains('active')) {
+        if (e.key === 'ArrowLeft') prevImage();
+        if (e.key === 'ArrowRight') nextImage();
+        if (e.key === 'Escape') closeViewer();
+      }
+    });
+
+    // Close on background click
+    document.getElementById('image-viewer').addEventListener('click', function(e) {
+      if (e.target === this) closeViewer();
+    });
+  </script>
+
+  
