@@ -72,11 +72,11 @@ Use the following layout structure to build the page. Center the content vertica
 |  |             |  | CHURCH HISTORY                                                                |
 |  |  [ IMAGE 4 ]|  |                                                                               |
 |  |   Church    |  | The ancient St. Johns Orthodox Syrian church in Punalur town, a spiritual     |
-|  +-------------+  | source of Christians in the Chernmanthoor area.                               |
+|  +-------------+  | source of Christians in the Chemmanthoor  area.                               |
 |                   |                                                                               |
 |                   | "plikotitl in 1899AD The late Rev_Alexanerios KathanartFather"                |
 |                   |                                                                               |
-|                   | The Chernmanthoor orthodox Syrian church was established under the order...   |
+|                   | The Chemmanthoor  orthodox Syrian church was established under the order...   |
 |                   |                                                                               |
 +---------------------------------------------------------------------------------------------------+
 | [Logo] St. John's Church, Punalur... | Phone: +91 94465 63128 | Email: info@... | [f] [IG] [YT] |
