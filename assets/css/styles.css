@@ -666,8 +666,7 @@ footer.site-footer small {
 
 .contact-section {
   padding: 1.5rem 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+
 }
 
 .contact-content {
